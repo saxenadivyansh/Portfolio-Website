@@ -1,0 +1,373 @@
+
+*
+{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+
+body{
+    color: white;
+    background-color: white;
+
+}
+.header
+{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #051109;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo 
+{
+    position: relative;
+    font-size: 25px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: 600;
+   
+}
+.logo span{
+    color: red;
+}
+
+
+.navbar a
+{
+
+ display: inline-block;
+font-size: 25px; 
+color: greenyellow;
+text-decoration: none;
+font-weight: 500;
+margin: 35px;
+transition: .3s;
+
+}
+.navbar a:hover{
+    color: royalblue;
+
+
+}
+
+.home
+{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(images/shyam.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+.home-content
+{
+    max-width: 600%;
+
+}
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 500;
+}
+.home-content h2 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    
+}
+.home-content h2 span{
+    color: red;
+
+}
+.home-content p{
+    font-size: 20px;
+}
+
+.btn-box
+{
+display: inline-block;
+padding: 10px 20px;
+text-decoration: none;
+background-color: red;
+color: aqua;
+border: red;
+border-radius: 4px;
+font-size: 16px;
+cursor: pointer;
+margin: 20px;
+}
+.btn-box:hover{
+    color: black;
+    box-shadow: 0 0 20px aqua;
+    
+
+
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+
+}
+.home-sci a:hover{
+    background: aqua;
+    color: black;
+    box-shadow: 0 0 20px aqua;
+}
+
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 1.5rem;
+  color:black
+}
+.about-img img
+{
+    padding-bottom: 10px;
+    max-width: 800px;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.about-text h2{
+    font-size: 60px;
+   
+}
+.about-text h2 span{
+    color: gold;
+    
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color:aqua;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+
+}
+.about-text p{
+    color: red;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+
+*{
+    box-sizing: border-box;
+    
+}
+.sub-title{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+
+}
+.sub-title span{
+    color:lightgreen;
+}
+.container{
+    width: 100%;
+    background-color: gold;
+}
+.skills{
+    text-align: right;
+    padding-top:  10px; 
+    padding-bottom: 30px;
+    color:black
+}
+
+
+.html{
+    width: 95%;
+    background-color:aqua ;
+    
+}
+.css{
+    width: 70%;
+    background-color: red ;
+}
+.javascript{
+    width: 60%;
+    background-color:green ;
+}
+.cpp{
+    width: 80%;
+    background-color:gray;
+}
+.text{
+    text-align: right;
+    padding-top:  40px; 
+    padding-bottom: 10px;
+    color:black;
+    font-size: 40px;
+}
+.hello{
+    font-size:40px ;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#project-list{
+    color: yellow;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+
+}
+.hello{
+    padding-bottom: 20px;
+    
+}
+.project-list{
+    
+
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 70vh;
+    background: url(images/project.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 70px 10% 0;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+
+}
+.project-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: 0px;
+    height: 40vh;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px black,
+                1px 1px 40px red
+}
+.project-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.project-list h1{
+   font-size: 30px;
+   font-weight: 200;
+   margin-bottom: 15px;
+}
+.project-list div a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.read{
+    display: inline-block;
+    padding: 12px 20px;
+    background:yellow;
+    border-radius: 40px;
+    font-size: 20px;
+    color: darkmagenta;
+    letter-spacing: 1px;
+
+}
+.read:hover{
+    background-color: yellow;
+    color: #051109;
+    box-shadow: 0 0 20px blue;
+}
+
+
+.bapu
+{
+    width: 100%;
+    height: 100vh;
+    background: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    color: aqua;
+    font-weight: 800;
+    margin-bottom: 20px;
+    
+}
+form input, form textarea{
+    border:0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: white;
+    font-size: 16px;
+
+
+}
+
+form button{
+    padding: 15px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 155px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+
+}
+form button:hover{
+    color: aqua;
+}
+
+.last-text{
+    color: #051109;
+    text-align: center;
+    font-size: 20px;
+    background: yellow;
+
+}
